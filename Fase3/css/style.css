@@ -1,0 +1,210 @@
+#menu {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+#menu:hover{
+    color: #000000;
+}
+
+#logo:hover{
+    transform: rotate(360deg);
+	transition: all 3s;
+}
+
+header {
+    background-image: url(../images/image\ 1.png);
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.ala {
+    margin-top: 200px;
+}
+
+.triangulo {
+    width: 100%;
+}
+
+#rectangle1 {
+    background-image: url(../images/Rectangulo1.png);
+    padding-top: 370px;
+    background-repeat: no-repeat;
+    background-size: 97%;
+    transition: transform 0.3s ease;
+}
+
+#rectangle1:hover {
+    transform: scale(1.1);
+}
+
+#rectangle2 {
+    background-image: url(../images/Rectangulo1.png);
+    padding-top: 310px;
+    background-repeat: no-repeat;
+    background-size: 97%;
+    transition: transform 0.3s ease;
+}
+
+#rectangle2:hover {
+    transform: scale(1.1);
+}
+
+.parrafo {
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+#boton {
+    transition: transform 0.5s;
+}
+
+#boton:hover {
+    transform: rotateX(360deg);
+
+}
+
+
+
+.negrita {
+    font-weight: bold;
+}
+
+.fondo {
+    background-image: url(../images/Ellipse2.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.form {
+    background-image: url(../images/Ellipse3.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+    width: 49%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #d6d6d6;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #d6d6d6;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    height: 300px;
+    background-color: #d6d6d6;
+}
+
+input[type="submit"] {
+    background-color: #d6d6d6;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #6a6a6b;
+}
+
+.certificado1{
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+  
+.certificado1:hover {
+    margin-top: 20px;
+}
+
+.certificado2{
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+  
+.certificado2:hover {
+    margin-top: 20px;
+}
+
+.certificado3{
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+  
+.certificado3:hover {
+    margin-top: 20px;
+}
+
+.footer {
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ala{
+    position: relative;
+    animation-name: a_t1;
+	animation-duration: 5s;
+	animation-timing-function: cubic-bezier(0, -0.35, 0, 1);
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes a_t1 {
+	0% {
+		left: -600px;
+	}
+
+	100% {
+		left: 0px;
+	}
+}
